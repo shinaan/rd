@@ -1,0 +1,9 @@
+[
+	{
+		"id": "2",
+		"name": "Cafe Two",
+		"detail": "Cafe Two detail",
+		"image": "default.png",
+		"slider_img_1": "sliderDefault.png"
+	}
+]

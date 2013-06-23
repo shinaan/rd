@@ -1,0 +1,102 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#e6e6e6;
+    font-family: source-sans-pro, sans-serif;
+}
+#loader{
+    width:16px;
+    height:16px;
+    padding:5px;
+    background:url(../img/loader.gif) no-repeat center;
+    background-color:#BD0E2E;
+    border-radius:21px;
+    border:1px solid rgba(255,255,255,0.5);
+    position:fixed;
+    top:49%;
+    left:49%;
+}
+.title{
+    height:40px;
+    color: #000000;
+    background-color: #cccccc;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.title h2{
+    padding-left: 10px;
+    margin-top:0px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.main-nav{
+    height:60px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+.main-nav ul{
+    height:60px;
+    width: 100%;
+}
+.main-nav ul li{
+    width: 20%;
+    height:60px;
+}
+.main-nav ul li a{
+    display: block;
+}
+.main-nav ul li a:hover{
+    background-color: #252525;
+    border-radius: 0px;;
+}
+.main-nav ul li a i{
+    display: block;
+    height:32px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+.main-nav ul li a{
+    font-weight:normal;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+}
+.main-nav ul li a:hover{
+    color: #ffffff;
+}
+
+.content{
+    height: 100%;
+    margin-top:0px;
+    padding-top: 40px;
+}
+.cnt-box{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 5px;
+    height: 90px;
+    border-radius: 2px;
+}
+.cnt-box img{
+    height:90px;
+    width:90px;
+    float: left;
+    margin-right:10px;
+}
+.cnt-box>a{
+    text-decoration: none;
+    color: #252525;
+}
+
+.carousel .item{
+    height: 150px;
+    background: url("../img/sliderDefault.png") center no-repeat;
+}
+
+
+.color{
+    background-color: rgba(241,245,40,0.5);
+}

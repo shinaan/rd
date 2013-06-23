@@ -1,0 +1,12 @@
+<div class="span12 title affix top" style="position: fixed; top: 0px; z-index: 999999">
+    <h2>Cafe's</h2>
+</div>
+<div class="span12 content">
+    <div class="cnt-box c_cafe" id="cafe{{cafe.id}}" ng-repeat="cafe in cafes">
+        <a href="#/cafe/{{cafe.id}}">
+        <img src="img/cafe/{{cafe.image}}">
+        <h3>{{cafe.name}}</h3>
+        <p>{{cafe.detail}}</p>
+        </a>
+    </div>
+</div>

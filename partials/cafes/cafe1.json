@@ -1,0 +1,9 @@
+[
+	{
+		"id": "1",
+		"name": "Cafe One",
+		"detail": "Cafe ones detail",
+		"image": "default.png",
+		"slider_img_1": "sliderDefault.png"
+	}
+]
